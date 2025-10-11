@@ -83239,17 +83239,17 @@
 		<Row> 
 			<ID>247</ID> 
 			<Type>COLOR_PLAYER_LITHUANIA_ICON</Type> 
-			<Red>0.3418</Red>
-			<Green>0.1176</Green>
-			<Blue>0.302</Blue>
+			<Red>0.871</Red>
+			<Green>0.357</Green>
+			<Blue>0.267</Blue>
 			<Alpha>1</Alpha> 
 		</Row>
 		<Row> 
 			<ID>248</ID> 
 			<Type>COLOR_PLAYER_LITHUANIA_BACKGROUND</Type> 
-			<Red>0.7765</Red>
-			<Green>0.255</Green>
-			<Blue>0.149</Blue>
+			<Red>0.455</Red>
+			<Green>0.106</Green>
+			<Blue>0.278</Blue>
 			<Alpha>1</Alpha> 
 		</Row>
 		<Row> 

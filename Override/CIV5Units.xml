@@ -83235,17 +83235,17 @@
 		<Row> 
 			<ID>247</ID> 
 			<Type>COLOR_PLAYER_LITHUANIA_ICON</Type> 
-			<Red>0.871</Red>
-			<Green>0.357</Green>
-			<Blue>0.267</Blue>
+			<Red>0.3418</Red>
+			<Green>0.1176</Green>
+			<Blue>0.302</Blue>
 			<Alpha>1</Alpha> 
 		</Row>
 		<Row> 
 			<ID>248</ID> 
 			<Type>COLOR_PLAYER_LITHUANIA_BACKGROUND</Type> 
-			<Red>0.455</Red>
-			<Green>0.106</Green>
-			<Blue>0.278</Blue>
+			<Red>0.7765</Red>
+			<Green>0.255</Green>
+			<Blue>0.149</Blue>
 			<Alpha>1</Alpha> 
 		</Row>
 		<Row> 
@@ -83363,17 +83363,17 @@
 		<Row> 
 			<ID>263</ID> 
 			<Type>COLOR_PLAYER_GAUL_ICON</Type> 
-			<Red>0.384</Red>
-            <Green>0.859</Green>
-            <Blue>0.808</Blue>
+			<Red>0.61569</Red>
+            <Green>0.78824</Green>
+            <Blue>0.41961</Blue>
             <Alpha>1</Alpha>
 		</Row>
 		<Row> 
 			<ID>264</ID> 
 			<Type>COLOR_PLAYER_GAUL_BACKGROUND</Type> 
-			<Red>0.04</Red>
-            <Green>0.42</Green>
-            <Blue>0.3</Blue>
+			<Red>0.25490</Red>
+            <Green>0.22745</Green>
+            <Blue>0.08235</Blue>
             <Alpha>1</Alpha>
 		</Row>
 		<Row> 
@@ -83395,17 +83395,17 @@
 		<Row> 
 			<ID>267</ID> 
 			<Type>COLOR_PLAYER_HUNGARY_ICON</Type> 
-			<Red>0.87</Red> 
-			<Green>0.282</Green> 
-			<Blue>0.196</Blue> 
+			<Red>1</Red> 
+			<Green>0.16274509803922</Green> 
+			<Blue>0.050980392156863</Blue> 
 			<Alpha>1</Alpha> 
 		</Row>
 		<Row> 
 			<ID>268</ID> 
 			<Type>COLOR_PLAYER_HUNGARY_BACKGROUND</Type> 
-			<Red>0.055</Red> 
-			<Green>0.357</Green> 
-			<Blue>0.235</Blue> 
+			<Red>0.21111</Red> 
+			<Green>0.95686274509804</Green> 
+			<Blue>0.28235294117647</Blue> 
 			<Alpha>1</Alpha> 
 		</Row>
 		<Row>
@@ -83587,17 +83587,17 @@
 		<Row> 
 			<ID>291</ID> 
 			<Type>COLOR_PLAYER_JER_ICON</Type> 
-			<Red>0.86</Red> 
-			<Green>0.77</Green> 
-			<Blue>0.1</Blue> 
+			<Red>0.937</Red> 
+			<Green>0.706</Green> 
+			<Blue>0</Blue> 
 			<Alpha>1</Alpha> 
 		</Row>
 		<Row> 
 			<ID>292</ID> 
 			<Type>COLOR_PLAYER_JER_BACKGROUND</Type> 
-			<Red>0.87</Red> 
-			<Green>0.89</Green> 
-			<Blue>0.93</Blue> 
+			<Red>0</Red> 
+			<Green>0</Green> 
+			<Blue>0</Blue> 
 			<Alpha>1</Alpha> 
 		</Row>
 		<Row> 
@@ -83763,17 +83763,17 @@
 		<Row>
 			<ID>313</ID> 
             <Type>COLOR_PLAYER_PHOENICIAN_ICON</Type>
-            <Red>0.455</Red>
-            <Green>0.639</Green>
-            <Blue>0.953</Blue>
+            <Red>0.918</Red>
+            <Green>0.792</Green>
+            <Blue>0.204</Blue>
             <Alpha>1</Alpha>
         </Row>
         <Row>
 			<ID>314</ID> 
             <Type>COLOR_PLAYER_PHOENICIAN_BACKGROUND</Type>
-            <Red>0.424</Red>
-            <Green>0.05</Green>
-            <Blue>0.75</Blue>
+            <Red>0.698</Red>
+            <Green>0.216</Green>
+            <Blue>0.290</Blue>
             <Alpha>1</Alpha>
         </Row>
 		<Row>
@@ -83811,17 +83811,17 @@
 		<Row>
 			<ID>319</ID> 
 			<Type>COLOR_PLAYER_DMS_IRELAND_OCONNELL_BACKGROUND</Type>
-			<Red>0</Red>
-			<Green>0.62</Green>
-			<Blue>0.376</Blue>
+			<Red>0.90980</Red>
+			<Green>0.86667</Green>
+			<Blue>0.81176</Blue>
 			<Alpha>1</Alpha>
 		</Row>
 		<Row>
 			<ID>320</ID> 
 			<Type>COLOR_PLAYER_DMS_IRELAND_OCONNELL_ICON</Type>
-			<Red>0.89</Red>
-			<Green>0.843</Green>
-			<Blue>0.69</Blue>
+			<Red>0.36471</Red>
+			<Green>0.80392</Green>
+			<Blue>0.20000</Blue>
 			<Alpha>1</Alpha>
 		</Row>
 		<Row>
@@ -83859,17 +83859,17 @@
 		<Row>
 			<ID>325</ID>
 			<Type>COLOR_PLAYER_AKSUM_ICON</Type>
-			<Red>0.388</Red>
-			<Green>0</Green>
-			<Blue>0.227</Blue>
+			<Red>0.74510</Red>
+			<Green>0.57255</Green>
+			<Blue>0.23922</Blue>
 			<Alpha>1</Alpha>
 		</Row>
 		<Row>
 			<ID>326</ID>
 			<Type>COLOR_PLAYER_AKSUM_BACKGROUND</Type>
-			<Red>0.533</Red>
-			<Green>0.573</Green>
-			<Blue>0.788</Blue>
+			<Red>0.26667</Red>
+			<Green>0.12941</Green>
+			<Blue>0.30588</Blue>
 			<Alpha>1</Alpha>
 		</Row>
 		<Row>
@@ -84100,9 +84100,9 @@
 		<Row>
 			<ID>355</ID>
 			<Type>COLOR_PLAYER_PG_GRANCOLOMBIA_BACKGROUND</Type>
-			<Red>0.08</Red>
-			<Green>0.2</Green>
-			<Blue>0.48</Blue>
+			<Red>0.201</Red>
+			<Green>0.109</Green>
+			<Blue>0.249</Blue>
 			<Alpha>1</Alpha>
 		</Row>
 		<Row>

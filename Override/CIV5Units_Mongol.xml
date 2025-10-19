@@ -22422,12 +22422,12 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_HARAPPA"> 
 			<Text>
-				Harappa
+				Pochinki
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_HARAPPA_ADJ"> 
 			<Text>
-				Harappan
+				Pochinki
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_HARAPPA_TEXT"> 

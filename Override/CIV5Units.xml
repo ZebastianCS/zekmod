@@ -64092,10 +64092,6 @@
 		</Row>
 		<Row> 
 			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType> 
-			<CityName>TXT_KEY_CITY_NAME_ULM</CityName> 
-		</Row>
-		<Row> 
-			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType> 
 			<CityName>TXT_KEY_CITY_NAME_FULDA</CityName> 
 		</Row>
 		<Row> 

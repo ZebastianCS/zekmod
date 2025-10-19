@@ -22522,7 +22522,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_ISLAM"> 
 			<Text>
-				Islamabad
+				Islamagood <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_ISLAM_ADJ"> 
@@ -22992,12 +22992,12 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_PANAMA_CITY"> 
 			<Text>
-				Panama City
+				Anbenncost <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_PANAMA_CITY_ADJ"> 
 			<Text>
-				Panamanian
+				Anbenncost <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_PERMANENTWAR_ADV_QUEST"> 
@@ -23092,7 +23092,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_RIGA"> 
 			<Text>
-				Riga
+				Rigma <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_RIGA_ADJ"> 
@@ -23122,12 +23122,12 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_SANTO"> 
 			<Text>
-				Santo Domingo
+				Bussin Se <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_SANTO_ADJ"> 
 			<Text>
-				Dominican
+				Bussin Se <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_SANTO_TEXT"> 
@@ -23247,12 +23247,12 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_TALLINN"> 
 			<Text>
-				Tallinn
+				Ryukyu <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_TALLINN_ADJ"> 
 			<Text>
-				Tallinner
+				Ryukyuan <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_TALLINN_TEXT"> 
@@ -23262,12 +23262,12 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_TBILSI"> 
 			<Text>
-				Colchis
+				Ulm <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_TBILSI_ADJ"> 
 			<Text>
-				Colchis
+				Ulmer <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_TBILSI_TEXT"> 
@@ -23277,12 +23277,12 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_THIMPHU"> 
 			<Text>
-				Thimphu
+				Lubbock <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_THIMPHU_ADJ"> 
 			<Text>
-				Thimphuan
+				Lubbock <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_THIMPHU_TEXT"> 
@@ -23292,12 +23292,12 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_TROI"> 
 			<Text>
-				Troy
+				Tromso <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_TROI_ADJ"> 
 			<Text>
-				Trojan
+				Tromso <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_TROI_TEXT"> 

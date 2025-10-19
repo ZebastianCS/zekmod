@@ -160,7 +160,7 @@
 			<Text>Ostrava</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_CZECHIA_3">			
-			<Text>Plzeň</Text>
+			<Text>Plzen</Text> <!-- zekmod: special character did not show up-->
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_CZECHIA_4">			
 			<Text>Olomouc</Text>

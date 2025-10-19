@@ -22422,12 +22422,12 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_HARAPPA"> 
 			<Text>
-				Pochinki
+				Pochinki <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_HARAPPA_ADJ"> 
 			<Text>
-				Pochinki
+				Pochinki <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_HARAPPA_TEXT"> 
@@ -22932,12 +22932,12 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_MONTEVIDEO"> 
 			<Text>
-				Hwan Empire
+				Hwan Empire <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_MONTEVIDEO_ADJ"> 
 			<Text>
-				Hwan
+				Hwan <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_MONTEVIDEO_TEXT"> 

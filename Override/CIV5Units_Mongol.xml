@@ -22522,12 +22522,12 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_ISLAM"> 
 			<Text>
-				Islamagood <!-- zekmod-->
+				Yesgay <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_ISLAM_ADJ"> 
 			<Text>
-				Islamabadi
+				Yesgay <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_ISLAM_TEXT"> 
@@ -22587,12 +22587,12 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_KILWA"> 
 			<Text>
-				Kampala
+				Finnic Empire <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_KILWA_ADJ"> 
 			<Text>
-				Kampalan
+				Finnic <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_KILWA_TEXT"> 
@@ -22962,12 +22962,12 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_ORMUS"> 
 			<Text>
-				Ormus
+				Lanfang <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_ORMUS_ADJ"> 
 			<Text>
-				Ormus
+				Lanfang <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_OSLO"> 
@@ -28975,7 +28975,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_HANOI"> 
 			<Text>
-				Hanoi
+				Hwan Empire <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_HARAD"> 
@@ -28990,7 +28990,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_HARAPPAN"> 
 			<Text>
-				Harappan
+				Pochinki <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_HARAR"> 
@@ -34602,7 +34602,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_SANTO_DOMINGO"> 
 			<Text>
-				Santo Domingo
+				Bussin Se <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_SANTUBONG"> 
@@ -98231,12 +98231,12 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_MEDIEVAL_SCENARIO_CITYSTATE_RIGA"> 
 			<Text>
-				Riga
+				Rigma <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_MEDIEVAL_SCENARIO_CITYSTATE_RIGA_ADJ"> 
-			<Text>
-				Rigan
+			<Text> 
+				Rigman <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_MEDIEVAL_SCENARIO_CITYSTATE_RIGA_DESC"> 
@@ -142516,12 +142516,12 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_WONDER_SCENARIO_CITYSTATE_TROY"> 
 			<Text>
-				Troy
+				Tromso <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_WONDER_SCENARIO_CITYSTATE_TROY_ADJ"> 
 			<Text>
-				Trojan
+				Tromso <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_WONDER_SCENARIO_CITYSTATE_TROY_DESC"> 

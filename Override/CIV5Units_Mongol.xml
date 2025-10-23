@@ -23082,12 +23082,12 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_RAGUSA"> 
 			<Text>
-				Ragusa
+				Dithmarschen <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_RAGUSA_ADJ"> 
 			<Text>
-				Ragusan
+				Dithmarscher <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_RIGA"> 
@@ -40529,7 +40529,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CIV5_CAPETOWN_TITLE"> 
 			<Text>
-				Cape Town
+				Bielefeld <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CIV5_CARAVAN_TEXT"> 

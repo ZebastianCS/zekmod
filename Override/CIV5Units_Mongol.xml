@@ -23137,12 +23137,12 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_SARAJEVO"> 
 			<Text>
-				Sarajevo
+				Trent <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_SARAJEVO_ADJ"> 
 			<Text>
-				Sarajlija
+				Trent <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_SARAJEVO_TEXT"> 
@@ -23292,12 +23292,12 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_TROI"> 
 			<Text>
-				Tromso <!-- zekmod-->
+				Troy 
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_TROI_ADJ"> 
 			<Text>
-				Tromso <!-- zekmod-->
+				Trojan
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_TROI_TEXT"> 
@@ -142516,12 +142516,12 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_WONDER_SCENARIO_CITYSTATE_TROY"> 
 			<Text>
-				Tromso <!-- zekmod-->
+				Troy
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_WONDER_SCENARIO_CITYSTATE_TROY_ADJ"> 
 			<Text>
-				Tromso <!-- zekmod-->
+				Trojan
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_WONDER_SCENARIO_CITYSTATE_TROY_DESC"> 

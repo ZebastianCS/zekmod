@@ -83251,17 +83251,17 @@
 		<Row> 
 			<ID>249</ID> 
 			<Type>COLOR_PLAYER_JFD_PAPAL_STATES_INNOCENT_ICON</Type> 
-			<Red>0.603</Red> 
-			<Green>0.443</Green> 
-			<Blue>0.117</Blue> 
+			<Red>0.878</Red> 
+			<Green>0.87</Green> 
+			<Blue>0.76</Blue>  
 			<Alpha>1</Alpha> 
 		</Row>
 		<Row> 
 			<ID>250</ID> 
 			<Type>COLOR_PLAYER_JFD_PAPAL_STATES_INNOCENT_BACKGROUND</Type> 
-			<Red>0.878</Red> 
-			<Green>0.87</Green> 
-			<Blue>0.76</Blue> 
+			<Red>0.603</Red> 
+			<Green>0.443</Green> 
+			<Blue>0.117</Blue> 
 			<Alpha>1</Alpha> 
 		</Row>
 		<Row> 

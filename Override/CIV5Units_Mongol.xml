@@ -22167,12 +22167,12 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_CAPE_TOWN"> 
 			<Text>
-				Cape Town
+				Bielefeld <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_CAPE_TOWN_ADJ"> 
 			<Text>
-				Cape
+				Bielefeld <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITYSTATE_CARACAS"> 
@@ -24468,7 +24468,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_ADRIANOPLE"> 
 			<Text>
-				Adrianople
+				Hadrianoupolis <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_ADWA"> 
@@ -25000,7 +25000,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_ANTIOCH"> 
 			<Text>
-				Antioch
+				Antiocheia <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_ANTIUM"> 
@@ -27754,7 +27754,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_DYRRACHIUM"> 
 			<Text>
-				Dyrrachium
+				Dyrrhachion <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_EBORA"> 
@@ -29663,7 +29663,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_ISTANBUL"> 
 			<Text>
-				Istanbul
+				Kostantiniyye <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_ISVARAPURA"> 
@@ -32168,7 +32168,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_MOSCOW"> 
 			<Text>
-				Moscow
+				Moskva <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_MOSINOPOL"> 
@@ -32668,7 +32668,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_NICAEA"> 
 			<Text>
-				Nicaea
+				Nikaia <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_NICE"> 
@@ -32678,12 +32678,12 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_NICOMEDIA"> 
 			<Text>
-				Nicomedia
+				Nikomedeia <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_NICOPOLIS"> 
 			<Text>
-				Nicopolis
+				Nikopolis <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_NICOSIA"> 
@@ -34697,7 +34697,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_SARDICA"> 
 			<Text>
-				Sardica
+				Sardike <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_SARDIS"> 
@@ -35372,7 +35372,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_STPETERSBURG"> 
 			<Text>
-				St. Petersburg
+				Sankt-Peterburg <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_STPOLTEN"> 
@@ -36322,7 +36322,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_TREBIZOND"> 
 			<Text>
-				Trebizond
+				Trapezous <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_TRES_ZAPOTES"> 
@@ -101828,7 +101828,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_MONGOL_SCENARIO_CITY_NAME_CONSTANTINOPLE"> 
 			<Text>
-				Constantinople
+				Konstantinoupolis <!-- zekmod-->
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_MONGOL_SCENARIO_CITY_NAME_DAZAIFU"> 

@@ -381,7 +381,7 @@ function OnReadyCheck( bChecked )
 	CheckGameAutoStart();	
 	ShowHideSaveButton();	
 end
-Controls.LocalReadyCheck:RegisterCheckHandler( OnReadyCheck );
+-- Controls.LocalReadyCheck:RegisterCheckHandler( OnReadyCheck );
 
 
 -------------------------------------------------
@@ -1398,7 +1398,6 @@ function UpdateOptions()
 
 	-- Set Game Name
 	local strGameName = Matchmaking.GetCurrentGameName();
-
 	Controls.NameLabel:SetText( strGameName );
 	
 	-- Game State Indicator
@@ -1535,23 +1534,22 @@ function UpdateOptions()
     end
     
     for option in GameInfo.GameOptions{Visible = 1} do	
-		if( option.Type ~= "GAMEOPTION_END_TURN_TIMER_ENABLED" 
-				and option.Type ~= "GAMEOPTION_SIMULTANEOUS_TURNS"
-				and option.Type ~= "GAMEOPTION_DYNAMIC_TURNS") then 
-			local savedValue = PreGame.GetGameOption(option.Type);
-			if(savedValue ~= nil and savedValue == 1) then
-				local controlTable = g_AdvancedOptionIM:GetInstance();
-				g_AdvancedOptionsList[count] = controlTable;
-				controlTable.Text:LocalizeAndSetText(option.Description);
-				controlTable.Text:LocalizeAndSetToolTip(option.Help);
-				count = count + 1;
+			if( option.Type ~= "GAMEOPTION_END_TURN_TIMER_ENABLED" 
+					and option.Type ~= "GAMEOPTION_SIMULTANEOUS_TURNS"
+					and option.Type ~= "GAMEOPTION_DYNAMIC_TURNS") then 
+				local savedValue = PreGame.GetGameOption(option.Type);
+				if(savedValue ~= nil and savedValue == 1) then
+					local controlTable = g_AdvancedOptionIM:GetInstance();
+					g_AdvancedOptionsList[count] = controlTable;
+					controlTable.Text:LocalizeAndSetText(option.Description);
+					count = count + 1;
+				end
 			end
 		end
-	end
-	
-	-- Update scrollable panel
-	Controls.AdvancedOptions:CalculateSize();
-	Controls.GameOptionsSummary:CalculateInternalSize();
+		
+		-- Update scrollable panel
+		Controls.AdvancedOptions:CalculateSize();
+		Controls.GameOptionsSummary:CalculateInternalSize();
 end
 
 

@@ -11,29 +11,141 @@
 	
 	<Language_en_US>
 		<!-- Version Number, Leave at top -->
-		 <Row Tag="TXT_KEY_LEKMOD_VERSION">
-			<Text>LEKMOD v34.7</Text>
+		<Row Tag="TXT_KEY_LEKMOD_VERSION">
+			<Text>LEKMOD v34.9</Text>
 		</Row>
 		<Replace Tag="TXT_KEY_MULTIPLAYER_STAGING_ROOM"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]LEKMOD v34.7[ENDCOLOR]
+				[COLOR_POSITIVE_TEXT]LEKMOD v34.9[ENDCOLOR]
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_AD_SETUP_ADVANCED_OPTIONS"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]LEKMOD v34.7[ENDCOLOR]  
+				[COLOR_POSITIVE_TEXT]LEKMOD v34.9[ENDCOLOR]  
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_GAME_SELECTION_SCREEN"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]LEKMOD v34.7[ENDCOLOR] 
+				[COLOR_POSITIVE_TEXT]LEKMOD v34.9[ENDCOLOR] 
 			</Text>
 		</Replace>
 		<Row Tag="TXT_KEY_GAME_OPTION_SCUFFED_VERSION_CHECKER">
-			<Text>[COLOR_POSITIVE_TEXT]LEKMOD v34.7[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]LEKMOD v34.9[ENDCOLOR]</Text>
 		</Row>
 		<!-- END VERSION -->
 
+		<Row Tag="TXT_KEY_UNIT_MAURYA_MISSIONARY"> 
+			<Text>
+				Ashoka's Envoy
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MAURA_MISSIONARY_HELP"> 
+			<Text>
+				Replaces the [ICON_UNIT_MISSIONARY] Missionary. Unique to [COLOR_POSITIVE_TEXT]Maurya[ENDCOLOR]. Has an additional [ICON_MOVES] Movement and ignores terrain cost. Yields 1 [ICON_RESEARCH] Science, [ICON_CULTURE] Culture, [ICON_GOLD] Gold, and [ICON_PEACE] Faith per [ICON_CITIZEN] Citizen converted to a [ICON_RELIGION] Religion upon spreading one; fully converting a city to a [ICON_RELIGION] Religion awards and additional 4 of those yields.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CONVERSION_PAYOUT"> 
+			<Text>
+				Yields from conversion
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CONVERSION_PAYOUT_HELP"> 
+			<Text>
+				Awards yields per citizens converted to a religion upon spread. Awards bonus yields when fully converting a city to a religion.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUY_CITY_STATE_HELP_DISABLED_TERRITORY"> 
+			<Text>
+				This Unit is not in the Territory of a City-State.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUY_CITY_STATE_HELP_DISABLED_ALLIED_TO_ANOTHER"> 
+			<Text>
+				{1_CityStateName} is allied to {2_CivName}.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUY_CITY_STATE_HELP_DISABLED_RECENT_ALLY"> 
+			<Text>
+				{1_CityStateName} was recently allied to {2_CivName}, you may buy out {1_CityStateName} in {3_Num} {3_Num: plural 1?Turn; other?Turns;}.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_BURMA_SETTLER"> 
+			<Text>
+				Aahkyayhkya Sai
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BURMA_SETTLER_HELP"> 
+			<Text>
+				Replaces the [ICON_UNIT_SETTLER] Settler. Unique to [COLOR_POSITIVE_TEXT]Burma[ENDCOLOR]. Costs 40% less [ICON_PRODUCTION] Production, but [COLOR_WARNING_TEXT]removes a [ICON_CITIZEN] Population[ENDCOLOR] from the City wherever one is trained.[NEWLINE][NEWLINE]Requires the City to have at least 3 [ICON_CITIZEN] Population.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_UNIT_SIZE_LIMIT"> 
+			<Text>
+				[NEWLINE]{2_UnitDescription} may only be trained in Cities with at least {1_Num} [ICON_CITIZEN] Citizens.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_MISSION_RETRAIN"> 
+			<Text>
+				Retrain
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RETRAIN_HELP_DISABLED_GOLD"> 
+			<Text>
+				You lack the necessary funds to Retrain this Unit.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RETRAIN_HELP_DISABLED_PROMOTIONS"> 
+			<Text>
+				This Unit doesn't have enough selected Promotions to be Retrained.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RETRAIN_HELP_DISABLED_EXPERIENCE"> 
+			<Text>
+				This Unit doesn't have enough Experience to be Retrained.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RETRAIN_HELP_DISABLED_TERRITORY"> 
+			<Text>
+				This Unit must be in your own Territory to Retrain.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_RETRAIN_HELP"> 
+			<Text>
+				Retraining this unit will remove all Player chosen Promotions. [NEWLINE]Removes [COLOR_WARNING_TEXT]{1_Num} XP[ENDCOLOR] and Gives [COLOR_XP_BLUE]{2_Num} XP[ENDCOLOR] back.[NEWLINE]This Unit will be at [COLOR_YELLOW]Level {3_Num}[ENDCOLOR] after Retraining.[NEWLINE]This requires {4_Num} [ICON_GOLD] Gold.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_GLOBAL"> 
+			<Text>
+				[ICON_HAPPINESS_GLOBAL] Happiness: +{1_Num}
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UA_AKKAD_DESC"> 
+			<Text>
+				The Great Unification
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UA_AKKAD_PEDIA"> 
+			<Text>
+				[COLOR_XP_BLUE] (https://en.wikipedia.org/wiki/Akkadian_Empire)[ENDCOLOR]The Akkadian Empire (/əˈkeɪdiən/)[2] was the first known empire,[3] succeeding the long-lived city-states of Sumer. Centered on the city of Akkad (/ˈækæd/ or /ˈɑːkɑːd/)[4] and its surrounding region, the empire united the Semitic Akkadian and Sumerian speakers under one rule and exercised significant influence across Mesopotamia, the Levant, Iran and Anatolia, sending military expeditions as far south as Dilmun and Magan (modern United Arab Emirates, Saudi Arabia, Bahrain, Kuwait, Qatar and Oman) in the Arabian Peninsula.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UA_AKKAD_STRATEGY"> 
+			<Text>
+				The Great Unification improves [ICON_OCCUPIED] [COLOR_GREEN]Conquered Cities[ENDCOLOR] and helps Akkad recover from a successful war.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UA_AKKAD_HELP"> 
+			<Text>
+				Automatically given in Cities [ICON_OCCUPIED] [COLOR_GREEN]Conquered[ENDCOLOR] by Akkad, Provides +3 [ICON_CULTURE] Culture, +2 [ICON_HAPPINESS_1] Global Happiness, and +1 [ICON_PRODUCTION] Production.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GEORGIA_GOLDEN_HELP"> 
+			<Text>
+				When killing [COLOR_CYAN]Pre-Industrial[ENDCOLOR] units, earn 100% of their Strength as [ICON_GOLDEN_AGE] Golden Age Points.
+			</Text>
+		</Row>
 		<Row Tag="TXT_KEY_OPSCREEN_DISPLAY_ALL_GREAT_PEOPLE"> 
 			<Text>
 				Display Next Great Person for all Great People.
@@ -123,7 +235,7 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_TRAIT_CZECHIA_DESC">			
-			<Text>+100% [COLOR_POSITIVE_TEXT]Religious Pressure[ENDCOLOR] towards your own cities. Choose a [COLOR_POSITIVE_TEXT]Reformation[ENDCOLOR] belief upon [COLOR_POSITIVE_TEXT]Enhancing[ENDCOLOR] a [ICON_RELIGION] Religion (if not picked already).</Text>
+			<Text>+100% [COLOR_POSITIVE_TEXT]Religious Pressure[ENDCOLOR] towards your own cities. Choose a [COLOR_POSITIVE_TEXT]Reformation[ENDCOLOR] belief upon [COLOR_POSITIVE_TEXT]Founding[ENDCOLOR] a [ICON_RELIGION] Religion (if not picked already).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_CZECHIA_SHORT_DESC">			
 			<Text>Hussite Fervor</Text>
@@ -160,7 +272,7 @@
 			<Text>Ostrava</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_CZECHIA_3">			
-			<Text>Plzeň</Text>
+			<Text>Plzen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_CZECHIA_4">			
 			<Text>Olomouc</Text>
@@ -169,19 +281,19 @@
 			<Text>Liberec</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_CZECHIA_6">			
-			<Text>České Budějovice</Text>
+			<Text>Ceske Budejovice</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_CZECHIA_7">			
-			<Text>Hradec Králové</Text>
+			<Text>Hradec Kralove</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_CZECHIA_8">			
-			<Text>Ústí nad Labem</Text>
+			<Text>Usti nad Labem</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_CZECHIA_9">			
 			<Text>Pardubice</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_CZECHIA_10">			
-			<Text>Zlín</Text>
+			<Text>Zlin</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_CZECHIA_11">			
 			<Text>Karlovy Vary</Text>
@@ -199,23 +311,23 @@
 			<Text>Opava</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_CZECHIA_16">			
-			<Text>Frýdek-Místek</Text>
+			<Text>Frydek-Mistek</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_CZECHIA_17">			
-			<Text>Děčín</Text>
+			<Text>Decin</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_CZECHIA_18">			
 			<Text>Chomutov</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_CZECHIA_19">			
-			<Text>Přerov</Text>
+			<Text>Prerov</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_CZECHIA_20">			
 			<Text>Jablonec nad Nisou</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_SPY_NAME_CZECHIA_0">			
-			<Text>František</Text>
+			<Text>Frantisek</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CZECHIA_1">			
 			<Text>Milada</Text>
@@ -225,7 +337,7 @@
 			<Text>Karel</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CZECHIA_3">			
-			<Text>Božena</Text>
+			<Text>Bozena</Text>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CZECHIA_4">			
@@ -236,7 +348,7 @@
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CZECHIA_6">			
-			<Text>Václav</Text>
+			<Text>Vaclav</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CZECHIA_7">			
 			<Text>Josef</Text>
@@ -246,7 +358,7 @@
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CZECHIA_9">			
-			<Text>Miloš</Text>
+			<Text>Milos</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_DAWN_OF_MAN_MUGHALS_TEXT">			
@@ -261,7 +373,7 @@
 			<Text>The Mansabdari system was a unique administrative structure established by Emperor Akbar that formed the backbone of the Mughal Empire's civil and military administration. Under this system, imperial officers known as mansabdars were assigned ranks (mansabs) that determined their status, responsibilities, and compensation. Each mansabdar maintained estates that served as centers of local governance and military recruitment. These estates not only strengthened imperial control but also served as cultural centers that promoted Mughal artistic and architectural styles. The system helped integrate diverse ethnic and religious groups into the empire's administrative framework, reflecting the Mughals' skill at incorporating various cultural traditions into their governance model.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MUGHALS_CARAVANSARY_HELP">			
-			<Text>Mughal replacement for the Caravansary. Available at Currency (vs. Horseback Riding). Provides +10 City [ICON_STRENGTH] Strength, +2 [ICON_GOLD] Gold and +3 [ICON_CULTURE] Culture if the city has a garrison.</Text>
+			<Text>Mughal replacement for the Caravansary. Available at Currency (vs. Horseback Riding). Provides +10 City [ICON_STRENGTH] Strength, +2 [ICON_GOLD] Gold and +3 [ICON_CULTURE] Culture if the city has a garrison. Provides 1 [ICON_RES_HORSE] Horse resource for the Empire.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MUGHALS_CARAVANSARY_STRATEGY">			
 			<Text>The Mansabdari Estate is available at a different technology than the Caravansary it replaces, requiring Currency rather than Horseback Riding. Beyond improving land trade routes, it provides significant defensive bonuses to your cities and additional [ICON_GOLD] Gold and [ICON_CULTURE] Culture when the city is garrisoned, encouraging a balanced approach to growth and defense.</Text>
@@ -290,7 +402,7 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_TRAIT_MUGHALS_DESC">			
-			<Text>Cities with a dominant [COLOR_POSITIVE_TEXT]Foreign Religion[ENDCOLOR] yield +1 [ICON_RESEARCH] Science, +1 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold for every 4 [ICON_CITIZEN] Population in the city. [COLOR_POSITIVE_TEXT]Holy Cities[ENDCOLOR] of [COLOR_POSITIVE_TEXT]Foreign Religions[ENDCOLOR] receive the same bonus if at least one of your original cities has been converted to that [ICON_RELIGION] Religion. +2 [ICON_GOLDEN_AGE] Golden Age points from [COLOR_POSITIVE_TEXT]World Wonders[ENDCOLOR].</Text>
+			<Text>Cities with a dominant [COLOR_POSITIVE_TEXT]Foreign Religion[ENDCOLOR] yield +1 [ICON_RESEARCH] Science, +1 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold for every [COLOR_GREEN]5[ENDCOLOR] [ICON_CITIZEN] Population in the city. [COLOR_POSITIVE_TEXT]Holy Cities[ENDCOLOR] of [COLOR_POSITIVE_TEXT]Foreign Religions[ENDCOLOR] receive the same bonus if at least one of your original cities has been converted to that [ICON_RELIGION] Religion. +2 [ICON_GOLDEN_AGE] Golden Age points from [COLOR_POSITIVE_TEXT]World Wonders[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_MUGHALS_SHORT_DESC">			
 			<Text>Diverse Administrators</Text>
@@ -671,7 +783,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_TOP_PANEL_GOLDEN_AGE">
 			<Text>
-				[ICON_GOLDEN_AGE][COLOR:255:255:255:255]{1_GoldenAgeProgress: number "##"}/{2_GoldenAgeThreshold: number "##"} {3_GoldenAgePointsPerTurn: number "'(+'##')';'[COLOR:255:60:60:255](-'##')'"}[/COLOR]
+				{1_GoldenAgeProgress: number "##"}/{2_GoldenAgeThreshold: number "##"} {3_GoldenAgePointsPerTurn: number "'(+'##')';'[COLOR:255:60:60:255](-'##')'"}
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_GOLDEN_AGE_ADDITION_HAPPINESS"> 
@@ -1336,7 +1448,7 @@
 		
 		<Replace Tag="TXT_KEY_BUILDING_HORDE_YAM_ROUTE_HELP"> 
 			<Text>
-				Replaces the Caravansary. Only the Golden Horde may build it. The Yam Route yields [ICON_RESEARCH] Science instead of [ICON_GOLD] Gold. In addition, it is available earlier and allows Airlifting in the City.
+				Replaces the Caravansary. Only the Golden Horde may build it. The Yam Route yields [ICON_RESEARCH] Science instead of [ICON_GOLD] Gold. In addition, it is available earlier and allows Airlifting in the City. Provides 1 [ICON_RES_HORSE] Horse resource for the Empire.
 			</Text>
 		</Replace>
 	
@@ -1703,7 +1815,7 @@
 		<Text>Swiss mercenaries (Reisläufer) were notable for their service in foreign armies, especially the armies of the Kings of France, throughout the Early Modern period of European history, from the Later Middle Ages into the Age of Enlightenment. Their service as mercenaries was at its peak during the Renaissance, when their proven battlefield capabilities made them sought-after mercenary troops. There followed a period of decline, as technological and organizational advances counteracted the Swiss' advantages. Switzerland's military isolationism largely put an end to organized mercenary activity; the principal remnant of the practice is the Pontifical Swiss Guard at the Vatican. (Wikipedia)</Text>
 	</Row>
 	<Row Tag="TXT_KEY_BUILDING_SWISS_REISLAUFER_HELP">			
-		<Text>Unique building for Switzerland. Replaces the Armory. In addition to the typical perks, units trained in a City with a Reisläufer Post receive a combat and movement bonus while adjacent to Mountain tiles. Upon completion, a Reisläufer appears in the City. Costs no [ICON_GOLD] Gold maintenance. </Text>
+		<Text>Unique building for Switzerland. Replaces the Armory. In addition to the typical perks, [COLOR_GREEN]Land[ENDCOLOR] units trained in a City with a Reisläufer Post receive a combat and movement bonus while adjacent to Mountain tiles. Upon completion, a Reisläufer appears in the City. Costs no [ICON_GOLD] Gold maintenance. </Text>
 	</Row>
 	<Row Tag="TXT_KEY_BUILDING_SWISS_REISLAUFER_STRATEGY">			
 		<Text>The Reisläufer Post's granted combat bonuses vary in usefulness depending on available terrain but will aid on both offense and defense, weakening your opponents' attempts at using Mountains as choke points and enabling you to do the same with greater ease. The Reisläufer recruited upon completion can help round out your forces no matter the circumstance, comparable to a Longswordsman.</Text>
@@ -2337,7 +2449,7 @@
 Many individual cacicazgos have been studied in colonial Mexico, showing that entailment was a successful means to preserve noble indigenous resources as the situation for commoners declined. There are cases where Spaniards married into cacique families, thereby giving them access to indigenous resources. In the Archivo General de la Nación, Mexico, a whole section of records, called Vínculos, is devoted to individual noble entailments. A collection of them was published in 1961. Cacicazgos survived into the nineteenth century. Conflicts over inheritance were common, and the litigants' arguments found in these cases form the basis for understanding some of the dynamics of the institution. Over time, the concept of cacique shifted, with some women attaining the title of cacica. Cacicazgo likewise underwent some transformation during the colonial era in Mexico. "By law, a cacique was a single heir and possessor of a cacicazgo estate, which always included land and often a subject labor force to work it. The Indians themselves, however, saw things differently, and by late colonial times it was not unusual for all the sons and daughters of a cacique (or cacica) to adopt the title. How and why this change took place, its chronology, and what it meant for local community organization remain imperfectly understood...The late colonial setting was vastly different, and indigenous noble claims of the period must be understood in the context in which they arose."[9] </Text>
 	</Row>
 	<Row Tag="TXT_KEY_BUILDING_CACICAZGO_HELP">
-			<Text>Replaces the Granary. In addition to the usual effects, this building yields +1 [ICON_PRODUCTION] Production, +1 [ICON_GOLD] Gold and allows the sending of [ICON_PRODUCTION] Production Trade Routes. It is slightly more expensive.
+			<Text>Replaces the Granary. In addition to the usual effects, this building yields +1 [ICON_PRODUCTION] Production and allows the sending of [ICON_PRODUCTION] Production Trade Routes. It is slightly more expensive.
  </Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_COLOMBIAN_CAVALRY">
@@ -2437,7 +2549,7 @@ Many individual cacicazgos have been studied in colonial Mexico, showing that en
 			<Text>Houses of Worship</Text>
 	</Row>
 	<Row Tag="TXT_KEY_BELIEF_HOUSES_OF_WORSHIP">
-			<Text>Use 100 [ICON_PEACE] Faith to buy an Art Hall (+1 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, +3 [ICON_TOURISM] Tourism), Writing Auditorium (+3 [ICON_CULTURE] Culture, +1 [ICON_PEACE] Faith) and a Vocal Chamber (+2 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, 1 [ICON_GREAT_MUSICIAN] Great Musician Slot) </Text>
+			<Text>Use 100 [ICON_PEACE] Faith to buy an Art Hall (+1 [ICON_CULTURE] Culture, +4 [ICON_PEACE] Faith, +3 [ICON_TOURISM] Tourism), Writing Auditorium (+2 [ICON_CULTURE] Culture, +1 [ICON_RESEARCH] Science) and a Vocal Chamber (+4 [ICON_CULTURE] Culture, +1 [ICON_HAPPINESS_1] Happiness, 1 [ICON_GREAT_MUSICIAN] Great Musician Slot) </Text>
 	</Row>
 	
 	<Row Tag="TXT_KEY_BELIEF_DEVOTED_ELITE_SHORT">
@@ -2473,7 +2585,7 @@ Many individual cacicazgos have been studied in colonial Mexico, showing that en
 			<Text>Inscriptions of Dharma</Text>
 	</Row>
 	<Row Tag="TXT_KEY_PROMOTION_INSCRIPTIONS_HELP">
-			<Text>10% Strength Penalty when Attacking and 10% extra Strength when Defending</Text>
+			<Text>20% extra [ICON_STRENGTH] Combat Strength when defending</Text>
 	</Row>
 	<Row Tag="TXT_KEY_PROMOTION_INSCRIPTIONS_HEAL_HELP">
 			<Text>Heals every turn in owned territory</Text>
@@ -2486,7 +2598,7 @@ Many individual cacicazgos have been studied in colonial Mexico, showing that en
 	</Row>
 	<!-- UA -->
 	<Row Tag="TXT_KEY_TRAIT_INSCRIPTIONS">
-			<Text>All units receive a [COLOR_WARNING_TEXT]10% Combat Penalty[ENDCOLOR] for attacking and a [COLOR_GREEN]10% Combat Bonus[ENDCOLOR] for defending.
+			<Text>All [COLOR_POSITIVE_TEXT]Military Non-Armor[ENDCOLOR], [COLOR_POSITIVE_TEXT]Non-Mounted[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Non-Air units[ENDCOLOR] receive a 20% [ICON_STRENGTH] Combat Bonus when defending.
 			</Text>
 	</Row>
 	<Row Tag="TXT_KEY_TRAIT_INSCRIPTIONS_SHORT">
@@ -2958,13 +3070,13 @@ Many individual cacicazgos have been studied in colonial Mexico, showing that en
 		<Text>Gerilya</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_PHILIPINO_MARINE_HELP">
-		<Text>Unique Unit for the Philippines. Unlike the Expeditionary Force that it replaces, the Gerilya receives +3 [ICON_MOVES] Movement when Embarked and is significantly stronger.</Text>
+		<Text>Unique Unit for the Philippines. Unlike the Expeditionary Force that it replaces, the Gerilya receives +3 [ICON_MOVES] Movement when Embarked and is much stronger.</Text>
 	</Row>
 	<Row Tag="TXT_KEY_BUILDING_NATIONALCHURCH">
 		<Text>National Church</Text>
 	</Row>
 		<Row Tag="TXT_KEY_BUILDING_NATIONALCHURCH_HELP">
-		<Text>Unique building for the Philippines. Unlike the Zoo that it replaces, the National Church requires no building to be built and is significantly cheaper. In addition to the [ICON_HAPPINESS_1] Happiness a regular zoo provides, the National Church provides +1 [ICON_CULTURE] Culture, +4 [ICON_PEACE] Faith and +15 xp to Units trained in this City. [NEWLINE] Available at the Compass technology</Text>
+		<Text>Unique building for the Philippines. Unlike the Zoo that it replaces, the National Church requires no building to be built and is significantly cheaper. In addition to the [ICON_HAPPINESS_1] Happiness a regular zoo provides, the National Church provides +1 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith and [COLOR_XP_BLUE]+15 XP[ENDCOLOR] to Units trained in this City. [NEWLINE] Available at the Compass technology</Text>
 	</Row>
 		<Row Tag="TXT_KEY_BUILDING_NATIONALCHURCH_STRATEGY">
 		<Text>Unique building for the Philippines. Unlike the Zoo that it replaces, it requires a Temple to be built instead of a Colosseum, is available at the Compass technology instead of the Printing Press technology and provides +1 [ICON_CULTURE] Culture, +4 [ICON_PEACE] Faith and +15 xp to Units trained in this City.</Text>
@@ -3230,7 +3342,7 @@ Many individual cacicazgos have been studied in colonial Mexico, showing that en
 			<Text>Perhaps the best known feature of Nabataean culture were the intricate rock-cut façades of their tombs. The tomb façades draw upon a rich array of Hellenistic and Near Eastern architecture and, in this sense, their architecture reflects the diverse and different cultures with which the Nabateans traded, interacted, and even intermarried (King Aretas IV''s daughter was married to Herod Antipas, the son of Herod the Great, whose mother was also Nabataean). Many of the tombs contain niches or small chambers for burials, cut into the stone walls. No human remains have ever been found in any of the tombs, and the exact funerary practices of the Nabataeans remain unknown.</Text>
 	</Row>
 	<Row Tag="TXT_KEY_BUILDING_MC_KOKH_HELP">
-			<Text>Unique Building for Nabataea. Unlike the Caravansary that it replaces, it provides more [ICON_GOLD] Gold and +2 [ICON_FOOD] Food. In addition, every Trade Route Departing the city yields an additional [ICON_FOOD] Food.</Text>
+			<Text>Unique Building for Nabataea. Unlike the Caravansary that it replaces, it provides more [ICON_GOLD] Gold and +2 [ICON_FOOD] Food. In addition, every Trade Route Departing the city yields an additional [ICON_FOOD] Food. Provides 1 [ICON_RES_HORSE] Horse resource for the Empire.</Text>
 	</Row>
 	<Row Tag="TXT_KEY_TRAIT_FOOD_FOR_TOUGHT">
 			<Text>Fresh Water Farms yield +1 [ICON_FOOD] Food at [ICON_TECH_MATHEMATICS] Mathematics rather than [ICON_TECH_CIVIL_SERVICE] Civil Service.</Text>
@@ -4184,7 +4296,7 @@ Many individual cacicazgos have been studied in colonial Mexico, showing that en
 		</Row>
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_WONDER_PANAMA_HELP1">
-			<Text>+8 [ICON_GOLD] Gold from External Sea [ICON_INTERNATIONAL_TRADE] Trade Routes and +2 [ICON_GOLD] Gold, +2 [ICON_CULTURE] Culture and +1 [ICON_PRODUCTION] Production From Canals in the City where it is built. Receive a Free [ICON_GREAT_MERCHANT] Great Merchant.[NEWLINE][NEWLINE]City must be built on the coast. </Text>
+			<Text>+8 [ICON_GOLD] Gold from External Sea [ICON_INTERNATIONAL_TRADE] Trade Routes. Receive a Free [ICON_GREAT_MERCHANT] Great Merchant.[NEWLINE][NEWLINE]City must be built on the coast. </Text>
 		</Row>
 		<!-- Quote tags -->
 		<Row Tag="TXT_KEY_WONDER_PANAMA_QUOTE1">
@@ -4842,7 +4954,7 @@ Many individual cacicazgos have been studied in colonial Mexico, showing that en
 	
 	<Row Tag="TXT_KEY_TRAIT_BY_REASON">
 			<Text>
-				[ICON_BUILD_FISHING_BOATS] Fishing Boats and [COLOR_GREEN]Dry Docks[ENDCOLOR] instantly claim all surrounding Neutral Tiles. Receive a free [ICON_GREAT_ADMIRAL] Great Admiral at the [ICON_TECH_COMPASS] Compass technology. Sword and Gunpowder units reduce nearby enemy Naval units' and Naval Melee units reduce nearby enemy Land units’ combat strength by 25%. 
+				[ICON_BUILD_FISHING_BOATS] Fishing Boats and [COLOR_GREEN]Dry Docks[ENDCOLOR] instantly claim all surrounding Neutral Tiles. Receive a free [ICON_GREAT_ADMIRAL] Great Admiral at the [ICON_TECH_COMPASS] [COLOR_CYAN]Compass[ENDCOLOR] technology. Sword and Gunpowder units reduce nearby enemy Naval units' and Naval Melee units reduce nearby enemy Land units’ combat strength by 25%. 
 			</Text>
 	</Row>
 	<Row Tag="TXT_KEY_TRAIT_BY_REASON_SHORT">
@@ -9121,7 +9233,7 @@ Many individual cacicazgos have been studied in colonial Mexico, showing that en
 			<Text>Oppidum of Bibracte</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_GAULS">
-			<Text>Receive a Murus Gallicus in the [ICON_CAPITAL] Capital upon the discovery of [ICON_TECH_MINING] Mining.</Text>
+			<Text>Receive a [COLOR_YELLOW]Murus Gallicus[ENDCOLOR] in the [ICON_CAPITAL] Capital upon the discovery of [ICON_TECH_MINING] [COLOR_CYAN]Mining[ENDCOLOR].</Text>
 		</Replace>
 		<!-- Diplo FirstGreeting tags -->
 		<Replace Tag="TXT_KEY_LEADER_VERCINGETORIX_FIRSTGREETING_1">
@@ -11032,7 +11144,7 @@ Many individual cacicazgos have been studied in colonial Mexico, showing that en
 			<Text>Sauna produces 2 [ICON_CULTURE] Culture for every Lake tile around the city, speeding the civilization's acquisition of a [ICON_RELIGION_PANTHEON] Pantheon, and it has a slot for a Great Work of Writing. When worked, the [ICON_PEACE] Faith from Lakes and Marshes counts for spawning a Rune Singer. Melee, gun, mounted and archer units built in a city with Sauna gain a small healing bonus.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_FINNISH_SAUNA_HELP">
-			<Text>Finnish unique building replacing the Shrine. The Sauna gives 2 [ICON_CULTURE] Culture for every Lake tile worked by the city. Land units built in a city with Sauna heal +10 HP per turn within own borders. Costs no [ICON_GOLD] Maintenance.</Text>
+			<Text>Finnish unique building replacing the Shrine. The Sauna gives 2 [ICON_CULTURE] Culture for every Lake tile worked by the city. [COLOR_GREEN]Land[ENDCOLOR] and [COLOR_GREEN]Naval[ENDCOLOR] units built in a city with Sauna heal +10 HP per turn within Finnish borders. Costs no [ICON_GOLD] Maintenance.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_FINNISH_FOREST_PATROL">
 			<Text>Sissi</Text>
@@ -15422,7 +15534,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_DAWAHH"> 
 			<Text>
-				+4 [ICON_CULTURE] Culture from the [COLOR_POSITIVE_TEXT]Palace[ENDCOLOR]
+				+4 [ICON_PEACE] Faith and +3 [ICON_CULTURE] Culture from the [ICON_BUILDING_PALACE] [COLOR_POSITIVE_TEXT]Palace[ENDCOLOR]
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_DAWAHH_SHORT"> 
@@ -15612,7 +15724,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_GOD_FESTIVALS"> 
 			<Text>
-				+1 [ICON_PRODUCTION] Production from [ICON_RES_SUGAR] Sugar, [ICON_RES_WINE] Wine and [ICON_RES_SPICES] Spices
+				+1 [ICON_PRODUCTION] Production and +1 [ICON_PEACE] Faith from [ICON_RES_SUGAR] Sugar, [ICON_RES_WINE] Wine and [ICON_RES_SPICES] Spices.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_GOD_FESTIVALS_SHORT"> 
@@ -15892,7 +16004,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_MANDIRS"> 
 			<Text>
-				Use 180 [ICON_PEACE] Faith to purchase [COLOR_POSITIVE_TEXT]Mandirs[ENDCOLOR] (+1 [ICON_PRODUCTION] Production and +1 [ICON_FOOD] Food from each [COLOR_POSITIVE_TEXT]Luxury[ENDCOLOR] Resource)
+				Use 180 [ICON_PEACE] Faith to purchase [COLOR_POSITIVE_TEXT]Mandirs[ENDCOLOR] (+1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production from each [COLOR_POSITIVE_TEXT]Luxury[ENDCOLOR] Resource)
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_MANDIRS_SHORT"> 
@@ -16062,7 +16174,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_PAGODAS"> 
 			<Text>
-				Use 130 [ICON_PEACE] Faith to purchase [COLOR_POSITIVE_TEXT]Pagodas[ENDCOLOR] (+1 [ICON_HAPPINESS_1] Happiness, +1 [ICON_CULTURE] Culture, 10% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born)
+				Use 130 [ICON_PEACE] Faith to purchase [COLOR_POSITIVE_TEXT]Pagodas[ENDCOLOR] (+1 [ICON_HAPPINESS_1] Happiness, +1 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, and 10% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born)
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_PAGODAS_SHORT"> 
@@ -16177,7 +16289,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_RELIGIOUS_FART"> 
 			<Text>
-				+5 [ICON_CULTURE] Culture and +10 [ICON_TOURISM] Tourism from the [COLOR_POSITIVE_TEXT]Hermitage[ENDCOLOR]
+				+8 [ICON_CULTURE] Culture, +8 [ICON_PEACE] Faith and +8 [ICON_TOURISM] Tourism from the [ICON_BUILDING_HERMITAGE] [COLOR_POSITIVE_TEXT]Hermitage[ENDCOLOR]
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_RELIGIOUS_FART_SHORT"> 
@@ -16237,7 +16349,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_RELSET"> 
 			<Text>
-				+1 [ICON_FOOD] Food from cities and +25% border expansion rate
+				+1 [ICON_FOOD] Food from cities and +20% border expansion rate
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_RELSET_SHORT"> 
@@ -16247,7 +16359,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_RITUAL_SACRIFICE"> 
 			<Text>
-				+1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold from [ICON_RES_IVORY] Ivory, [ICON_RES_FUR] Furs, and [ICON_RES_TRUFFLES] Truffles
+				+2 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold from [ICON_RES_IVORY] Ivory, [ICON_RES_FUR] Furs, and [ICON_RES_TRUFFLES] Truffles
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_RITUAL_SACRIFICE_SHORT"> 
@@ -17262,7 +17374,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_CARAVANSARY_HELP"> 
 			<Text>
-				Land trade routes originating from this city have a 50% increase in range and produce an additional 2 [ICON_GOLD] Gold when connecting to another civilization.
+				Land trade routes originating from this city have a 50% increase in range and produce an additional 2 [ICON_GOLD] Gold when connecting to another civilization. Provides 1 [ICON_RES_HORSE] Horse resource for the Empire.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_CARAVANSARY_STRATEGY"> 
@@ -17496,7 +17608,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_CONSTABLE_HELP"> 
 			<Text>
-				Reduces enemy [ICON_SPY] spy stealing rate by 25%.
+				Reduces enemy [ICON_SPY] spy stealing rate by 25% and increases [ICON_SPY] Counterspy level by 1.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_CONSTABLE_STRATEGY"> 
@@ -17511,7 +17623,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_HELP_CONVICT_PENITENTIARY"> 
 			<Text>
-				Replaces the Constabulary. It is available earlier, and provides +5% [ICON_PRODUCTION] Production and +5% [ICON_GOLD] Gold. Reduces enemy [ICON_SPY] Spy stealing rate by 25%.
+				Replaces the [ICON_BUILDING_CONSTABLE] [COLOR_YELLOW]Constabulary[ENDCOLOR]. It is available earlier, and provides +5% [ICON_PRODUCTION] Production and +5% [ICON_GOLD] Gold. Reduces enemy [ICON_SPY] Spy stealing rate by 25% and increases [ICON_SPY] Counterspy level by 1.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_COTHON"> 
@@ -17521,7 +17633,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_COTHON_HELP"> 
 			<Text>
-				Replaces the Lighthouse. Provides an extra [ICON_FOOD] Food.
+				Replaces the [ICON_BUILDING_LIGHTHOUSE] [COLOR_YELLOW]Lighthouses[ENDCOLOR]. Provides +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production in addition to the [ICON_BUILDING_LIGHTHOUSE] [COLOR_YELLOW]Lighthouses'[ENDCOLOR] other effects.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_COURTHOUSE"> 
@@ -18176,7 +18288,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_HIPPODROME_HELP"> 
 			<Text>
-				Replaces the Amphitheater. Provides extra [ICON_PEACE] Faith and [ICON_HAPPINESS_1] Hapiness.[NEWLINE][NEWLINE]City must have a Monument.
+				Replaces the Amphitheater. Slightly cheaper to [ICON_PRODUCTION] construct and provides extra [ICON_PEACE] Faith and [ICON_HAPPINESS_1] Happiness.[NEWLINE][NEWLINE]City must have a [ICON_BUILDING_MONUMENT] [COLOR_YELLOW]Moument[ENDCOLOR]
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_HOSPITAL"> 
@@ -18427,7 +18539,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_KREPOST_HELP"> 
 			<Text>
-				+15 XP for all Units. [ICON_CULTURE] Culture and [ICON_GOLD] Gold costs of acquiring new tiles reduced by 25% in this city.
+				Replaces the [ICON_BUILDING_BARRACKS] Barracks. Unique to [ICON_CIV_RUSSIA] Russia. +15 XP for all Units. [ICON_CULTURE] Culture and [ICON_GOLD] Gold costs of acquiring new tiles reduced by 25% in this city.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_KYAWWAT"> 
@@ -18826,7 +18938,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_MUGHAL_FORT_HELP"> 
 			<Text>
-				Replaces the Castle. Provides extra [ICON_CULTURE] Culture and [ICON_HAPPINESS_1] Hapiness. Provides +2 [ICON_TOURISM] Tourism after Flight is researched.[NEWLINE][NEWLINE]City must have Walls.
+				Replaces the Castle. Provides extra [ICON_CULTURE] Culture and [ICON_HAPPINESS_1] Hapiness. Provides +2 [ICON_TOURISM] Tourism after Flight is researched.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_MUGHAL_FORT_PEDIA"> 
@@ -19008,7 +19120,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_ODEON_HELP"> 
 			<Text>
-				Replaces the Amphitheater. Gives additional [ICON_CULTURE] Culture and +1 [ICON_GREAT_PEOPLE] Writer slot. [NEWLINE][NEWLINE]City must have a monument.
+				Replaces the Amphitheater. Available much earlier, at [ICON_TECH_WRITING] [COLOR_CYAN]Writing[ENDCOLOR], and Provides +4 [ICON_CULTURE] Culture, +1 [ICON_GOLD] Gold, and +1 [ICON_CITIZEN_MAGENTA] [ICON_GREAT_WRITER] Writer Specialist. [NEWLINE][NEWLINE]City must have a [ICON_BUILDING_MONUMENT] [COLOR_YELLOW]Moument[ENDCOLOR]
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_OPERA_HOUSE"> 
@@ -19054,7 +19166,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_OUTREMER_HELP"> 
 			<Text>
-				Replaces the Courthouse. Eliminates extra [ICON_HAPPINESS_4] Unhappiness from an [ICON_OCCUPIED] Occupied City.
+				Replaces the Courthouse. Provides +2 [ICON_CULURE] Culture, [ICON_PEACE] Faith, and [ICON_HAPPINESS_1] Happiness. Has a reduced gold maintenance and Eliminates extra [ICON_HAPPINESS_4] Unhappiness from an [ICON_OCCUPIED] Occupied City.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_OXFORD_UNIVERSITY"> 
@@ -19307,7 +19419,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_QARA_HELP"> 
 			<Text>
-				Hunnic replacement for the Stable. +15% [ICON_PRODUCTION] Production when building Mounted Units.[NEWLINE][NEWLINE]Each source of [ICON_RES_HORSE] Horses [ICON_RES_SHEEP] Sheep and [ICON_RES_COW] Cattle worked by this City produce +1 [ICON_PRODUCTION] Production. Also provides +2 [ICON_RES_HORSE] Horses and +1 [ICON_PEACE] Faith from [ICON_RES_HORSE] Horses.[NEWLINE]Additionally provides +1 [ICON_FOOD] Food to [ICON_RES_MAIZE] Maize[NEWLINE][NEWLINE]City must have at least one of these pasture resources improved with a Pasture
+				Replaces the [ICON_BUILDING_STABLE] Stable. Unique to the [ICON_CIV_HUNS] Huns. +15% [ICON_PRODUCTION] Production when building Mounted Units.[NEWLINE][NEWLINE]Each source of [ICON_RES_HORSE] Horses [ICON_RES_SHEEP] Sheep and [ICON_RES_COW] Cattle worked by this City produce +1 [ICON_PRODUCTION] Production. Also provides +2 [ICON_RES_HORSE] Horses and +1 [ICON_PEACE] Faith from [ICON_RES_HORSE] Horses.[NEWLINE]Additionally provides +1 [ICON_FOOD] Food to [ICON_RES_MAIZE] Maize[NEWLINE][NEWLINE]City must have at least one of these pasture resources improved with a Pasture
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_QARA_STRATEGY"> 
@@ -19466,7 +19578,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_SERAI_HELP"> 
 			<Text>
-				In addition to the regular effects of a Caravansary, the Serai provides +1 [ICON_GOLD] Gold per 3 [ICON_CITIZEN] Citizens, increases the city's air unit capacity by 1 and allows units to fast travel between other cities with Serais with the Airlift function.
+				In addition to the regular effects of a [ICON_BUILDING_CARAVANSARY] Caravansary, the Serai provides +1 [ICON_GOLD] Gold per 3 [ICON_CITIZEN] Citizens, increases the city's air unit capacity by 1 and allows units to fast travel between other cities with Serais with the Airlift function. Provides 1 [ICON_RES_HORSE] Horse resource for the Empire.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_SHRINE"> 
@@ -19899,6 +20011,21 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 				Stupa
 			</Text>
 		</Replace>
+		<Row Tag="TXT_KEY_BUILDING_TIBET_PEDIA"> 
+			<Text>
+				[COLOR_XP_BLUE] (https://en.wikipedia.org/wiki/Stupa)[ENDCOLOR] In Buddhism, a stupa (Sanskrit: स्तूप, lit. 'heap', IAST: stūpa) is a domed hemispherical structure containing several types of sacred relics, including images, statues, metals, and śarīra—the remains of Buddhist monks or nuns. It is used as a place of pilgrimage and meditation.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TIBET_STRATEGY"> 
+			<Text>
+				Given in cities founded by Dalai Lama, and the Tibetan [ICON_CAPITAL] Capital. Provides significant yields that grow with each Era passed
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TIBET_HELP"> 
+			<Text>
+				Given in cities founded by Dalai Lama, and the Tibetan [ICON_CAPITAL] Capital after the discovery of [ICON_TECH_DRAMA] [COLOR_CYAN]Drama and Poetry[ENDCOLOR]. Provides +2 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, [ICON_RESEARCH] Science, [ICON_CULTURE] Culture, and [ICON_PEACE] Faith. Additionally gives +1 to all of those for each Era beyond the Classical Era.
+			</Text>
+		</Row>
 		<Replace Tag="TXT_KEY_BUILDING_TIMMYS_DESC"> 
 			<Text>
 				Tim Horton's
@@ -20144,7 +20271,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_WAT_HELP"> 
 			<Text>
-				+2 [ICON_RESEARCH] Science from Jungle tiles worked by this City.[NEWLINE][NEWLINE]City must have a Library.
+				Cheaper to [ICON_PRODUCTION] construct than the [ICON_BUILDING_UNIVERSITY] [COLOR_YELLOW]University[ENDCOLOR] and Provides +3 [ICON_CULTURE] Culture. +2 [ICON_RESEARCH] Science from Jungle tiles worked by this City.[NEWLINE][NEWLINE]City must have a Library.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_WAT_PEDIA"> 
@@ -20210,7 +20337,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 				The Writers' Guild is the only building that contains writer specialist slots, which are critical for generating Great Writers. If your goal is a cultural victory, this building is a must-have. The Writers' Guild provides 1 [ICON_GREAT_PEOPLE] Great Person Point, and each assigned specialist provides 3 [ICON_GREAT_PEOPLE] Great Person Points and 3 [ICON_CULTURE] Culture.
 			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_BUILDING_ZIGGGURAT_HELP"> 
+		<Replace Tag="TXT_KEY_BUILDING_ZIGGURAT_HELP"> 
 			<Text>
 				Replaces the Temple. Costs 1 less [ICON_GOLD] Gold maintenance and provides +10% [ICON_RESEARCH] Science.
 			</Text>
@@ -20257,7 +20384,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILD_AYER"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Build a Kampong Ayer
+				[COLOR_POSITIVE_TEXT]Build a Kampong Ayer[ENDCOLOR]
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILD_A_CITY_MCFLY_ECONOMIC"> 
@@ -20567,7 +20694,8 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILD_MOTTE_BAILEY_HELP"> 
 			<Text>
-				+100% [ICON_STRENGTH] Defensive Strength for any Unit stationed in this Tile. Any enemy unit which ends its turn next to the Motte and Bailey takes 3 damage. Does NOT consume the unit.
+				+25% [ICON_STRENGTH] Defensive Strength for any Unit stationed in this Tile. Requires [ICON_TECH_ENGINEERING] [COLOR_CYAN]Engineering[ENDCOLOR] to build. May not be constructed adjacent to another Motte and Bailey. May be constructed on Resources, but does not Connect them to the Empire's Trade Network.
+				[NEWLINE][NEWLINE]+1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production, upon discovering [ICON_TECH_FLIGHT] [COLOR_CYAN]Flight[ENDCOLOR] the Motte and Bailey gains an additional +2 [ICON_CULTURE] Culture.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILD_MOTTE_BAILEY_REC"> 
@@ -20692,7 +20820,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILD_SACRED_GROVE"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Construct a Sacred Grove
+				[COLOR_POSITIVE_TEXT]Construct a Sacred Grove[ENDCOLOR]
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILD_SCIENCE_STRING"> 
@@ -25719,7 +25847,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_BARI"> 
 			<Text>
-				Bari
+				Bare
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_BARIA"> 
@@ -28230,7 +28358,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_FLORENCE"> 
 			<Text>
-				Florence
+				Firenze
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_FLORIANOPOLIS"> 
@@ -28480,7 +28608,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_GENOA"> 
 			<Text>
-				Genoa
+				Genova
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_GENUA"> 
@@ -30626,11 +30754,166 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 				Kyaukse
 			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_CITY_NAME_KYIV"> 
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_1"> 
 			<Text>
-				Kiev
+				Kyiv
 			</Text>
-		</Replace>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_2"> 
+			<Text>
+				Chernihiv
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_3"> 
+			<Text>
+				Halych
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_4"> 
+			<Text>
+				Volodymyr
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_5"> 
+			<Text>
+				Pereiaslav
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_6"> 
+			<Text>
+				Lutsk
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_7"> 
+			<Text>
+				Lviv
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_8"> 
+			<Text>
+				Kharkiv
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_9"> 
+			<Text>
+				Odesa
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_10"> 
+			<Text>
+				Donetsk
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_11"> 
+			<Text>
+				Mykolaiv
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_12"> 
+			<Text>
+				Cherkasy
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_13"> 
+			<Text>
+				Luhansk
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_14"> 
+			<Text>
+				Zhytomyr
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_15"> 
+			<Text>
+				Kremenchuk
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_16"> 
+			<Text>
+				Chernivtsi
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_17"> 
+			<Text>
+				Kropyvnytskyi
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_18"> 
+			<Text>
+				Kherson
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_19"> 
+			<Text>
+				Poltava
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_20"> 
+			<Text>
+				Berdychiv
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_21"> 
+			<Text>
+				Simferopol
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_22"> 
+			<Text>
+				Kamianets-Podilskyi
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_23"> 
+			<Text>
+				Mariupol
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_24"> 
+			<Text>
+				Bila Tserkva
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_25"> 
+			<Text>
+				Kerch
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_26"> 
+			<Text>
+				Vinnytsia
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_27"> 
+			<Text>
+				Ternopil
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_28"> 
+			<Text>
+				Bilhorod-Dnistrovskyi
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_29"> 
+			<Text>
+				Sumy
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_30"> 
+			<Text>
+				Rivne
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_31"> 
+			<Text>
+				Berdiansk
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UKRAINE_32"> 
+			<Text>
+				Feodosia
+			</Text>
+		</Row>
 		<Replace Tag="TXT_KEY_CITY_NAME_KYOTO"> 
 			<Text>
 				Kyoto
@@ -32018,7 +32301,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_MILAN"> 
 			<Text>
-				Milan
+				Milano
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_MILETOS"> 
@@ -32473,7 +32756,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_NAPLES"> 
 			<Text>
-				Naples
+				Napoli
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_NARA"> 
@@ -34112,7 +34395,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_REGGIO"> 
 			<Text>
-				Reggio
+				Reggio di Calabria
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_REGINA"> 
@@ -36497,7 +36780,7 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_TURIN"> 
 			<Text>
-				Turin
+				Torino 
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITY_NAME_TURKU"> 
@@ -36913,6 +37196,11 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 				Venice
 			</Text>
 		</Replace>
+		<Row Tag="TXT_KEY_CITY_NAME_VENEZIA"> 
+			<Text>
+				Venezia 
+			</Text>
+		</Row>
 		<Replace Tag="TXT_KEY_CITY_NAME_VENLO"> 
 			<Text>
 				Venlo
@@ -43304,7 +43592,8 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_HELP"> 
 			<Text>
-				A Chateau must be built adjacent to a Luxury resource.  It may not be adjacent to another Chateau. It provides the same +50% defense bonus as a Fort. Must be built in French territory. When Flight is researched its [ICON_CULTURE] Culture yield increases by 1 and its [ICON_GOLD] Gold output rises by 2.
+				Unique French Improvement, available at [ICON_TECH_CHIVALRY] [COLOR_CYAN]Chivalry[ENDCOLOR]. May only be contructed adjacent to [COLOR_GREEN]Luxury[ENDCOLOR] Resources and Not adjacent to other Chateaux. Units stationed on a Chateau recieve 50% [ICON_STRENGTH] defense.
+				[NEWLINE][NEWLINE]+2 [ICON_CULTURE] Culture, +2 [ICON_RESEARCH] Science, and +1 [ICON_GOLD] Gold; Upon discovering [ICON_TECH_FLIGHT] [COLOR_CYAN]Flight[ENDCOLOR] provides an additional +2 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_TEXT"> 
@@ -43614,7 +43903,8 @@ strongest around the Gulf of Bothnia, where land steadily rises about 1 cm a yea
 		</Replace>
 		<Replace Tag="TXT_KEY_CIV5_IMPROVEMENTS_MOTTE_BAILEY_HELP"> 
 			<Text>
-				Built by Norman Swordsmen, the Motte and Bailey provides +100% [ICON_STRENGTH] Defensive Strength for any Unit stationed in this Tile. Any enemy unit which ends its turn next to the Motte and Bailey takes 3 damage.
+				+25% [ICON_STRENGTH] Defensive Strength for any Unit stationed in this Tile. Requires [ICON_TECH_ENGINEERING] [COLOR_CYAN]Engineering[ENDCOLOR] to build. May not be constructed adjacent to another Motte and Bailey. May be constructed on Resources, but does not Connect them to the Empire's Trade Network.
+                [NEWLINE][NEWLINE]+1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production, upon discovering [ICON_TECH_FLIGHT] [COLOR_CYAN]Flight[ENDCOLOR] the Motte and Bailey gains an additional +2 [ICON_CULTURE] Culture.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CIV5_IMPROVEMENTS_MOTTE_BAILEY_TEXT"> 
@@ -100013,12 +100303,12 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_MISSION_BUY_CITY_STATE_DISABLED_HELP"> 
 			<Text>
-				Unit must be in a City State's territory that you're not at war with.
+				Unit must be in a City State's territory that you're not at war with and that has not been allied to another player for at least 5 turns.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_MISSION_BUY_CITY_STATE_HELP"> 
 			<Text>
-				The Merchant of Venice will use his considerable wealth to purchase a City State and put it under control of Venice as a puppeted city. You gain control of all of the minor civilization's existing units.
+				The Merchant of Venice will use his considerable wealth to purchase a City State and put it under control of Venice. You gain control of the City, the City-State's units, and its Territory. The City-State cannot be Liberated.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_MISSION_CHANGE_ADMIRAL_PORT"> 
@@ -100416,6 +100706,26 @@ The ship has weather'd every rack; the prize we sought is won."
 				Required before this Unit can Range Attack.
 			</Text>
 		</Replace>
+		<Row Tag="TXT_KEY_MISSION_SUBMERGE"> 
+			<Text>
+				Submerge
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_SUBMERGE_HELP"> 
+			<Text>
+				When Submerged, this unit gains 75% [ICON_MODE_ATTACK] when Attacking, Invisiblity, and the ability to move under Ice. Has a set amount of Movement when Submerged. 
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_SURFACE"> 
+			<Text>
+				Surface
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_SURFACE_HELP"> 
+			<Text>
+				Removes all the bonuses of being Submerged, but allows this unit to move faster.
+			</Text>
+		</Row>
 		<Replace Tag="TXT_KEY_MISSION_SKIP"> 
 			<Text>
 				Do Nothing
@@ -109258,7 +109568,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CONSTRUCT_WONDER"> 
 			<Text>
-				Another player has constructed {@1_WonderName}, meaning you can no longer fulfill the request of {@2_CivName}.
+				You have advanced 2 Eras beyond {@1_WonderName} or Another player has constructed it, meaning you can no longer fulfill the request of {@2_CivName}.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_CULTURE"> 
@@ -114528,7 +114838,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Command Economy[ENDCOLOR][NEWLINE]+3 [ICON_PRODUCTION] Production, +3 [ICON_RESEARCH] Science, and +1 [ICON_GOLD] Gold from [COLOR_POSITIVE_TEXT]Strategic Resources[ENDCOLOR]. Provides 4 [ICON_RES_HORSE] Horses, 4 [ICON_RES_IRON] Iron, 4 [ICON_RES_COAL] Coal, 4 [ICON_RES_ALUMINUM] Aluminum, 4 [ICON_RES_OIL] Oil, and 2 [ICON_RES_URANIUM] Uranium  in the [ICON_CAPITAL] Capital.
+				[COLOR_POSITIVE_TEXT]Command Economy[ENDCOLOR][NEWLINE]+3 [ICON_PRODUCTION] Production, +3 [ICON_RESEARCH] Science, and +1 [ICON_GOLD] Gold from [ICON_RES_ALUMINUM] Aluminum, [ICON_RES_COAL] Coal, [ICON_RES_IRON] Iron, [ICON_RES_OIL] Oil, and [ICON_RES_URANIUM] Uranium. Provides 4 [ICON_RES_ALUMINUM] Aluminum, [ICON_RES_COAL] Coal, [ICON_RES_IRON] Iron, [ICON_RES_OIL] Oil, [ICON_RES_HORSE] Horses and 2 [ICON_RES_URANIUM] Uranium resources for the Empire.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_TEXT"> 
@@ -114618,7 +114928,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ELITE_FORCES_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Elite Forces[ENDCOLOR][NEWLINE]+10% Combat Bonus to all [COLOR_POSITIVE_TEXT]Military Units[ENDCOLOR] and each gain an extra 5 HP when healing.
+				[COLOR_POSITIVE_TEXT]Elite Forces[ENDCOLOR][NEWLINE]+10% Combat Bonus to all [COLOR_POSITIVE_TEXT]Military Units[ENDCOLOR] and each gain an extra 10 HP when healing.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ELITE_FORCES_TEXT"> 
@@ -115669,7 +115979,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SKYSCRAPERS_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Skyscrapers[ENDCOLOR][NEWLINE][ICON_GOLD] Gold cost of purchasing [COLOR_POSITIVE_TEXT]Buildings[ENDCOLOR] reduced by 33%.
+				[COLOR_POSITIVE_TEXT]Skyscrapers[ENDCOLOR][NEWLINE][ICON_GOLD] Gold cost of purchasing [COLOR_POSITIVE_TEXT]Buildings[ENDCOLOR] reduced by 50%.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SKYSCRAPERS_TEXT"> 
@@ -118151,7 +118461,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PRODMOD_YIELD_PLAYER"> 
 			<Text>
-				[NEWLINE][ICON_BULLET]Misc Player Modifier: {1_Num}%
+				[NEWLINE][ICON_BULLET]Empire Modifier: {1_Num}%
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PRODMOD_YIELD_RESOURCES"> 
@@ -119780,7 +120090,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_BY_FORCE_HELP"> 
 			<Text>
-				Enemy Land units receive -25% [ICON_STRENGTH] Combat Strength when close (2 tiles) to any unit with this promotion.
+				Enemy Land units receive -25% [ICON_STRENGTH] Combat Strength when adjacent to any unit with this promotion.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_BY_REASON"> 
@@ -119790,7 +120100,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_BY_REASON_HELP"> 
 			<Text>
-				Enemy Naval units receive -25% [ICON_STRENGTH] Combat Strength when close (2 tiles) to any unit with this promotion.
+				Enemy Naval units receive -25% [ICON_STRENGTH] Combat Strength when when adjacent to any unit with this promotion.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_HARTE"> 
@@ -120860,7 +121170,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_SURVIVALISM_3_HELP"> 
 			<Text>
-				Unit will [COLOR_POSITIVE_TEXT]Heal Every Turn[ENDCOLOR], even if it performs an action.  Unit will attempt to withdraw when faced with a melee attack.
+				Unit will [COLOR_POSITIVE_TEXT]Heal Every Turn[ENDCOLOR], even if it performs an action. Unit will attempt to withdraw when faced with a melee attack.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_TAPF"> 
@@ -120910,9 +121220,19 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_TRADE_MISSION_BONUS_HELP"> 
 			<Text>
-				Double [ICON_GOLD] Gold and triple [ICON_INFLUENCE] Influence (90 total) from Trade Missions.
+				Double [ICON_GOLD] Gold and [ICON_INFLUENCE] Influence (60 total) from Trade Missions.
 			</Text>
 		</Replace>
+		<Row tag="TXT_KEY_PROMOTION_EMBARK_MOVEMENT_2">
+			<Text>
+				Fast Embark
+			</Text>
+		</Row>
+		<Row tag="TXT_KEY_PROMOTION_EMBARK_MOVEMENT_2_HELP">
+			<Text>
+				+2 Movement while [ICON_MISSION_EMBARK] Embarked.
+			</Text>
+		</Row>
 		<Replace Tag="TXT_KEY_PROMOTION_UNWELCOME_EVANGELIST"> 
 			<Text>
 				Unwelcome Evangelist
@@ -121045,7 +121365,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_WOODSMAN_HELP"> 
 			<Text>
-				Double movement rate [COLOR_POSITIVE_TEXT]Through Forest and Jungle[ENDCOLOR].
+				Double movement rate and 15% [ICON_STRENGTH] Combat Strength in[COLOR_POSITIVE_TEXT]Forest and Jungle[ENDCOLOR].
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_XTRA_MOVES_I"> 
@@ -132396,7 +132716,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_TECH_DRAMA_QUOTE"> 
 			<Text>
-				[NEWLINE][TAB][TAB]"What is drama but life with the dull bits cut out."[NEWLINE] - Alfred Hitchcock[NEWLINE][TAB]
+				[NEWLINE][TAB][TAB]"What is drama but life with the dull bits cut out."[NEWLINE] - Alfred Hitchcock[NEWLINE][TAB]
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_TECH_CART_TITLE"> 
@@ -135794,10 +136114,9 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_BALTIC"> 
 			<Text>
-				Instead of receiving Great Prophets, receive Krivises that cannot found a [ICON_RELIGION] [COLOR_WARNING_TEXT]Religion[ENDCOLOR], but may construct Sacred Groves.
+				[ICON_PROPHET] Great Prophets may not be used to [ICON_MISSION_FOUND_RELIGION] [COLOR_WARNING_TEXT]Found or [ICON_MISSION_ENHANCE_RELIGION] Enhance[ENDCOLOR] a [ICON_RELIGION] Religion also cannot [COLOR_WARNING_TEXT]Create [ICON_BUILD_HOLY_SITE] Holy Sites[ENDCOLOR]. Instead they may Create Sacred Groves.  
 			</Text>
 		</Replace>
-		
 		<Replace Tag="TXT_KEY_TREASURY_RESOURCE_FOUND"> 
 			<Text>
 				A group of Horses has appeared!
@@ -136010,7 +136329,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE"> 
 			<Text>
-				+1 [ICON_CULTURE] Culture from the [ICON_BUILDING_PALACE] Palace. +15 [ICON_CULTURE] Culture upon the discovery of [ICON_TECH_ACOUSTICS] Acoustics. [ICON_BUILDING_MUSEUM][COLOR_GREEN]Museum[ENDCOLOR] and [COLOR_GREEN]World Wonder[ENDCOLOR] theming bonuses are doubled in the [ICON_CAPITAL] Capital.
+				+1 [ICON_CULTURE] Culture in the [ICON_CAPITAL] Capital, this increases by +15 [ICON_CULTURE] Culture upon discovering [ICON_TECH_ACOUSTICS] [COLOR_CYAN]Acoustics[ENDCOLOR]. [ICON_BUILDING_MUSEUM] [COLOR_GREEN]Museum[ENDCOLOR] and [COLOR_GREEN]World Wonder[ENDCOLOR] theming bonuses are doubled in the [ICON_CAPITAL] Capital.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE_SHORT"> 
@@ -136355,7 +136674,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_MALAGASY"> 
 			<Text>
-				[ICON_PEACE] Faith cost of purchasing [COLOR_POSITIVE_TEXT]Religious Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Buildings[ENDCOLOR] is reduced by 33%. [ICON_BUILD_HOLY_SITE] Holy Sites yield +1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith, which increases by +1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith for every adjacent [ICON_BUILD_HOLY_SITE] Holy Site.
+				[ICON_PEACE] Faith cost of purchasing [COLOR_POSITIVE_TEXT]Religious Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Buildings[ENDCOLOR] is reduced by 25%. [ICON_BUILD_HOLY_SITE] Holy Sites yield +1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith, which increases by +1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith for every adjacent [ICON_BUILD_HOLY_SITE] Holy Site.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_MALAGASY_SHORT"> 
@@ -136475,7 +136794,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_TIBET"> 
 			<Text>
-				Receive +2 [ICON_CULTURE] Culture, +2 [ICON_RESEARCH] Science, +2 [ICON_PRODUCTION] Production, +2 [ICON_FOOD] Food, +2 [ICON_GOLD] Gold, and +2 [ICON_PEACE] Faith upon the discovery of [ICON_TECH_DRAMA] Drama and Poetry. Receive +1 of those yields for every Era you advance to after the Classical Era.
+				The [ICON_CAPITAL] Capital and Cities founded by [COLOR_GREEN]Dalai Lama[ENDCOLOR] receive +2 [ICON_FOOD] Food, +2 [ICON_PRODUCTION] Production, +2 [ICON_GOLD] Gold, +2 [ICON_RESEARCH] Science, +2 [ICON_CULTURE] Culture, and +2 [ICON_PEACE] Faith upon the discovery of [ICON_TECH_DRAMA] [COLOR_CYAN]Drama and Poetry[ENDCOLOR]. Receive +1 of those yields for every Era you advance to after the Classical Era.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_TIBET_SHORT"> 
@@ -136545,7 +136864,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_SCHOLARS_JADE_HALL"> 
 			<Text>
-				+1 [ICON_RESEARCH] Science for all specialists and +2 [ICON_RESEARCH] Science for all Great Person tile improvements. +1 [ICON_RESEARCH] Science from the [ICON_BUILDING_PALACE] Palace
+				+1 [ICON_RESEARCH] Science for all specialists and +2 [ICON_RESEARCH] Science for all Great Person tile improvements. +1 [ICON_RESEARCH] Science in the [ICON_CAPITAL] Capital.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_SCHOLARS_JADE_HALL_SHORT"> 
@@ -136765,7 +137084,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_VENEZ"> 
 			<Text>
-				Sea [ICON_INTERNATIONAL_TRADE] Trade Routes cannot be plundered. Upon the discovery of [ICON_TECH_COMPASS] Compass, receive a free [ICON_INTERNATIONAL_TRADE] trade route and a Cargo Ship appears in the [ICON_CAPITAL] Capital.
+				Sea [ICON_INTERNATIONAL_TRADE] Trade Routes cannot be plundered. Upon the discovery of [ICON_TECH_COMPASS] [COLOR_CYAN]Compass[ENDCOLOR], receive a free [ICON_INTERNATIONAL_TRADE] trade route and a Cargo Ship appears in the [ICON_CAPITAL] Capital.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_VENEZ_SHORT"> 
@@ -136785,7 +137104,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_VIKING_FURY"> 
 			<Text>
-				Embarked units have +1 Movement [ICON_MOVES] and pay just 1 movement point to move from sea to land. Melee units pay no movement point cost to pillage. +1 [ICON_PRODUCTION] Production from [ICON_RES_FISH] Fish.
+				[COLOR_POSITIVE_TEXT]Embarked units[ENDCOLOR] have +1 [ICON_MOVES] Movement and pay just 1 [ICON_MOVES] Movement point to disembark; [COLOR_POSITIVE_TEXT]Civilian units[ENDCOLOR] may also embark for the same cost. [COLOR_POSITIVE_TEXT]Melee Land units[ENDCOLOR] pillage without movement penalties.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_VIKING_FURY_SHORT"> 
@@ -136825,7 +137144,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_BURMA"> 
 			<Text>
-				+1 [ICON_HAPPINESS_1] Happiness per City.
+				+1 [ICON_HAPPINESS_1] Global Happiness per City.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_BURMA_SHORT"> 
@@ -138083,7 +138402,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		
 		<Replace Tag="TXT_KEY_UNIT_DALAILAMA_HELP"> 
 			<Text>
-				The Dalai Lama is the Tibetan replacement for the Settler. It has 1 religion spread and 1 extra sight.
+				The Dalai Lama is the Tibetan replacement for the [ICON_PROPHET] Great Prophet. It can [ICON_MISSION_FOUND] Found Cities, Start a [ICON_GOLDEN_AGE] Golden Age, be used to create a [ICON_BUILD_HOLY_SITE] Holy Site or [ICON_MISSION_FOUND_RELIGION] Found or [ICON_MISSION_ENHANCE_RELIGION] Enhance a [ICON_RELIGION] Religion. Arrives with 1 more [ICON_MISSION_SPREAD_RELIGION] Religion Spread and +1 [ICON_PROMOTION_SCOUTING_1] Sight.[NEWLINE][NEWLINE]Cities settled by a Dalai Lama receive additional Yields.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_DALAI_LAMA"> 
@@ -138541,7 +138860,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_HELP_BALLISTA"> 
 			<Text>
-				Siege Unit that does major damage from a distance. Only the Romans may build it. This Unit has a higher [ICON_RANGE_STRENGTH] Ranged Combat Strength than the Catapult, which it replaces. Does not need to set-up in order to fire.
+				Replaces the [ICON_UNIT_CATAPULT] Catapult. Unique to [ICON_CIV_ROME] Rome. Has a higher [ICON_RANGE_STRENGTH] Ranged Combat Strength and does not need to set-up in order to fire, but has a reduced [ICON_STRENGTH] Combat Bonus when attacking Cities (100%, vs 200%)
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_HELP_BARBARIAN_WARRIOR"> 
@@ -139171,7 +139490,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_HELP_VENETIAN_MERCHANT"> 
 			<Text>
-				This Venetian unique Great Person replaces the Great Merchant. Aside from the ability to Conduct a Trade Mission, the Merchant of Venice can purchase City-States outright, bringing them under Venetian control as a Puppet.
+				This Venetian unique Great Person replaces the [ICON_GREAT_MERCHANT] Great Merchant. [ICON_MISSION_TRADE] Trade Missions conducted by Venetian Merchants provide 100% more [ICON_GOLD] Gold and [ICON_INFLUENCE] Influence. Can Purchase [ICON_CITY_STATE] City States that have not been allied to any other Major Civilization for [COLOR_WARNING_TEXT]5[ENDCOLOR] turns.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_HELP_WARRIOR"> 
@@ -139228,8 +139547,8 @@ The ship has weather'd every rack; the prize we sought is won."
 			<Text>
 				Hetairoi
 			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_UNIT_HETAIROI_HELP"> 
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HETAIROI_HELP"> 
 			<Text>
 				Unique unit for the Macedonians. Replaces the [ICON_UNIT_GREAT_GENERAL] Great General. This unit is a combat unit, which scales for every Era you have advanced beyond the [COLOR_POSITIVE_TEXT]Ancient Era[ENCOLOR].
 			</Text>
@@ -140405,15 +140724,15 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_VENETIAN_MERCHANT_STRATEGY"> 
 			<Text>
-				The Merchant of Venice is a unique Great Merchant replacement. Aside from the normal Great Merchant abilities, the Merchant of Venice can acquire a City-State outright, bringing it under Venetian control as a puppet. The Merchant of Venice is expended when used in this way.
+				The Merchant of Venice is a unique Great Merchant replacement. Aside from the normal Great Merchant abilities, the Merchant of Venice can acquire a City-State outright, bringing it under Venetian control. The Merchant of Venice is expended when used in this way.
 			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_UNIT_VIETCONG"> 
+		<Replace Tag="TXT_KEY_UNIT_VIETNAM_INFANTRY"> 
 			<Text>
-				Viet Cong
+				Dong Khoi Soldier
 			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_UNIT_HELP_VIETCONG"> 
+		<Replace Tag="TXT_KEY_UNIT_VIETNAM_INFANTRY_HELP"> 
 			<Text>
 				Unique unit for Vietnam. Replaces the Infantry. Has 1 additional [ICON_MOVES] Movement and performs a ranged attack before it performes a melee one. Also has a [ICON_STRENGTH] Combat bonus against Gunpowder Units.
 			</Text>
@@ -143816,6 +144135,31 @@ The ship has weather'd every rack; the prize we sought is won."
 				{1_Num} {2_IconString} from Terrain
 			</Text>
 		</Replace>
+		<Row Tag="TXT_KEY_YIELD_FROM_THEMED_BUILDINGS"> 
+			<Text>
+				{1_Num} {2_IconString} from Themeing [ICON_GREAT_WORK] Great Works
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_GARRISON"> 
+			<Text>
+				{1_Num} {2_IconString} from City Garrison
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_POLICIES"> 
+			<Text>
+				{1_Num} {2_IconString} from Social Policies
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_TRAITS"> 
+			<Text>
+				{1_Num} {2_IconString} from Traits
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_LEAGUES"> 
+			<Text>
+				{1_Num} {2_IconString} from the World Congress
+			</Text>
+		</Row>
 		<Replace Tag="TXT_KEY_YIELD_GOLD"> 
 			<Text>
 				Gold
